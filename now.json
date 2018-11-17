@@ -4,6 +4,11 @@
   "alias": "bastion.now.sh",
   "routes": [
     { "src": "/support", "status": 301, "headers": { "Location": "https://discord.gg/fzx8fkt" } },
+    { "src": "/discord", "status": 301, "headers": { "Location": "https://discord.gg/fzx8fkt" } },
+    { "src": "/github", "status": 301, "headers": { "Location": "https://github.com/TheBastionBot" } },
+    { "src": "/gitlab", "status": 301, "headers": { "Location": "https://gitlab.com/TheBastionBot" } },
+    { "src": "/twitter", "status": 301, "headers": { "Location": "https://twitter.com/TheBastionBot" } },
+    { "src": "/reddit", "status": 301, "headers": { "Location": "https://reddit.com/r/TheBastionBot" } },
     { "src": "/*", "status": 301, "headers": { "Location": "https://bastionbot.org" } }
   ]
 }
