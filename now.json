@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "bastion",
+  "alias": "bastion.now.sh",
+  "routes": [
+    { "src": "/support", "status": 301, "headers": { "Location": "https://discord.gg/fzx8fkt" } },
+    { "src": "*", "status": 301, "headers": { "Location": "https://bastionbot.org" } }
+  ]
+}
