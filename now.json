@@ -5,6 +5,7 @@
   "routes": [
     { "src": "/support", "status": 301, "headers": { "Location": "https://discord.gg/fzx8fkt" } },
     { "src": "/discord", "status": 301, "headers": { "Location": "https://discord.gg/fzx8fkt" } },
+    { "src": "/invite", "status": 301, "headers": { "Location": "https://discordapp.com/oauth2/authorize?client_id=267035345537728512&scope=bot&permissions=8" } },
     { "src": "/github", "status": 301, "headers": { "Location": "https://github.com/TheBastionBot" } },
     { "src": "/gitlab", "status": 301, "headers": { "Location": "https://gitlab.com/TheBastionBot" } },
     { "src": "/twitter", "status": 301, "headers": { "Location": "https://twitter.com/TheBastionBot" } },
